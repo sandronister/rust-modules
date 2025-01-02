@@ -1,12 +1,4 @@
-mod math{
-    pub fn add(a: i32, b: i32) -> i32 {
-        a + b
-    }
-
-    pub fn sub(a: i32, b: i32) -> i32 {
-        a - b
-    }
-}
+mod math;
 
 fn main() {
     println!("Addition: {}", math::add(10, 20));
